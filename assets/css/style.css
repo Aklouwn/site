@@ -1,1 +1,206 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Black.ttf") format("truetype");
+    font-weight: 900;
+  }
 
+  @font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+         font-weight: 700;
+  }
+
+  @font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+         font-weight: 500;
+  }
+
+  @font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+         font-weight: 600;
+  }
+
+  @font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+         font-weight: 400;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+.woman {
+    background: url("../img/Main.png") no-repeat center center/ cover;
+    height: 1200px;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+.logo{
+ 
+    width: 394px;
+    height: 148px;
+   }
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headtext{
+ 
+width: 462px;
+height: 50px;
+
+
+font-family: "Montserrat";
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+text-align: center;
+color: #FFFFFF;
+
+}
+.social{
+    display: flex;
+}
+.number{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 37px;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.viber{
+display: flex;
+align-items: center;
+margin-right: 9px;
+}
+
+.viber1{
+margin-left: 5px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+}
+
+.whatsapp{
+display: flex;
+align-items: center;
+margin-right: 9px;
+}
+
+.whatsapp1{
+    margin-left: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.telegram{
+display: flex;
+align-items: center;
+margin-right: 9px;
+}
+
+.telegram1{
+    margin-left: 5px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+}
+  
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.container2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.tittle{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+color: white;
+}
+
+.subtittle{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+color: #FFFFFF;
+margin-top: 10px;
+}
+
+.subtittle span{
+    color: blue;
+}
+
+.preims{
+    margin-left: 280px;
+    display: block;
+    margin-top: 40px;
+}
+
+.preim{
+    display: flex;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.preim_text{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+color: #FFFFFF;
+margin-left: 45px;
+}
+
+.buiz{
+    margin-left: 280px;
+    margin-top: 190px;
+}
+
+.buiz_text{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+
+color: #FFFFFF;
+}
+
+.buiz_button{
+width: 299px;
+height: 91px;
+left: 169px;
+top: 970px;
+
+background: #A56492;
+border-radius: 20px;
+
+margin-top: 50px;
+
+}
